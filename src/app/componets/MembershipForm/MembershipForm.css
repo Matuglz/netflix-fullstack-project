@@ -1,0 +1,137 @@
+*{
+    overflow-x: hidden;
+}
+
+.membership_nav {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vh;
+}
+
+.membership_nav img {
+    width: 15%;
+}
+
+.membership_hr {
+    margin: 0 5%;
+    background-color: #e6e6e6;
+    height: 1px;
+    border: none;
+}
+
+.plan_info_section {
+    padding: 1vw 20vh;
+}
+
+.plan_info_section h2 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.plan_info_section ul {
+    list-style: none;
+    color: #333333;
+}
+
+.plan_info_section ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+.plan_info_section ul li svg {
+    color: red;
+    margin-right: 10px;
+}
+
+
+.plan_grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 25vh;
+}
+
+
+.plan_grid_selector_choice {
+    padding: 40px 20px;
+    background-color: #EF6B71;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.plan_grid_selector_choice:hover{
+    cursor: pointer;
+}
+
+.plan_grid_selector_input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+
+.plan_table{
+    width: 100%;
+}
+
+.plan_table_tbody tr{
+    height: 80px;
+    color: #333333;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.plan_table_tbody tr th{
+    text-align: start;
+    font-weight: 400;
+}
+
+.plan_table_tbody tr td{
+    overflow-y: hidden;
+    font-weight: 400;
+}
+
+.plan_info{
+    text-align: start;
+    color: #737788;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.create_account_btn{
+    width: 400px;
+    height: 60px;
+    background-color: #E50914;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: large;
+}
+
+.create_account_btn:hover{
+    cursor: pointer;
+    background-color: #F6121D;
+}
+.selected{
+    background-color: #E50914;
+}
+
+.red{
+    color: red;
+}

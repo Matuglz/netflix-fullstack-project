@@ -1,0 +1,110 @@
+.nav {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    transition: 0.3s ease-in-out;
+    background-color: transparent;
+    background: linear-gradient(0deg, rgba(175, 70, 41, 0) 43%, #141414 100%);
+    color: white;
+}
+
+.div-izquierda,
+.div-derecha {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 25px;
+    margin-right: 15px;
+}
+
+.fixed {
+    background-color: #141414;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.caca {
+    margin-right: -5px;
+    width: 35px;
+    border-radius: 10px;
+}
+
+.cast-icon {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.div-derecha {
+    width: 60%;
+    justify-content: space-between;
+}
+
+@media (max-width:768px) {
+    .div-izquierda-desktop {
+        display: none;
+    }
+
+    .div-derecha-desktop{
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .nav{
+        height: 50px;
+    }
+    .div-izquierda {
+        display: none;
+    }
+    .div-derecha{
+        display: none;
+    }
+
+    .div-izquierda-desktop{
+        display: flex;
+    }
+
+    .logo-desk {
+        width: 110px;
+        height: 10%;
+        margin: 0 9%;
+    }
+
+    .ul-nav{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: .9rem;
+    }
+
+    .ul-nav li {
+        width: max-content;
+        font-weight: 600;
+    }
+
+    .ul-nav li:hover{
+        color: #4d4d4f;
+        cursor: pointer;
+    }
+
+    .div-derecha-desktop{
+        margin-right: 20px;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .niños{
+        margin:0 10px;
+        font-size: 1rem;
+    }
+}

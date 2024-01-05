@@ -1,0 +1,130 @@
+
+
+.singUpSection {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/backgroundSesion.jpg);
+}
+
+.singUpSectionFilter{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.603);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.netflix-logo{
+    width: 25%;
+}
+.login-button{
+    padding-top: 10px;
+    background-color: #e50914;
+    width: 140px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: medium;
+    text-align: center;
+}
+
+.login-button:hover{
+    transition: 0.5s;
+    background-color: #b80b13;
+    cursor: pointer;
+}
+.home-nav{
+    overflow: hidden;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px 0 20px;
+}
+.forms-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.text-section{
+    color: white;
+    text-align: center;
+}
+
+.text-section h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.text-section p{
+    font-size: 2rem;
+    margin: 15px 0;
+}
+
+.text-section small{
+    font-size: 1.25rem;
+}
+
+.forms-div article{
+    margin-top:50px ;
+}
+
+.forms-div article form input{
+    height: 48px;
+    width: 20vw;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.425);
+    border: white 1px solid;
+    border-radius: 5px;
+    color: white;
+    margin:0  20px;
+}
+
+.forms-div article form button{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    height: 50px;
+    width: 10vw;
+    background-color: #e50914;
+    border: #e50914 1px solid;
+    border-radius: 3px;
+
+}
+.forms-div article form button:hover{
+    cursor: pointer;
+    background-color: #b80b13;
+    border: #b80b13 1px solid;
+}
+
+.back-form-button{
+    background-color: rgba(0, 0, 0, 0.425);
+    border:3px solid rgb(204, 203, 203);
+    color: rgb(196, 195, 195);
+    padding: 5px;
+    font-weight: 900;
+    border-radius: 47%;
+}
+
+.back-form-button:hover{
+    cursor: pointer;
+    color: white;
+    border:3px solid white;
+}
+.memberSection{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.hidden{
+    display: none;
+}
